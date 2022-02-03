@@ -8,7 +8,7 @@ while game:
     my_ans = input("Choose rock , paper or scissors: ")
     my_ans = my_ans.lower()
 
-    play_again = input("Do u want to play again ? Y Or N :").lower()
+    # play_again = input("Do u want to play again ? Y Or N :").lower()
 
     if my_ans == "quit":
         break
@@ -36,15 +36,15 @@ while game:
     else:
         print("You Lose!")
 
-    play_again = None
+    # play_again = None
 
-    while play_again not in ["y" ,"yes","no","n"]:
-        play_again = input("Do u want to play again ?").lower()
-    if play_again in ["y","yes"]:
-        continue
-    else:
-        print("You have finished game")
-        game = False
+    # while play_again not in ["y" ,"yes","no","n"]:
+    #     play_again = input("Do u want to play again ?").lower()
+    # if play_again in ["y","yes"]:
+    #     continue
+    # else:
+    #     print("You have finished game")
+    #     game = False
 
     
 
