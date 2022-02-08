@@ -3,8 +3,8 @@ import random
 game = True
 
 def play_again():
-    play_again = input("do u want to play again ?").lower()
-    if play_again == "Yes" or "Y":
+    play = input("do u want to play again ?").lower()
+    if play == "Yes" or "Y":
         game
     else:
         print("Thank you for playing!")
